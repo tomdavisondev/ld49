@@ -368,13 +368,70 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735441378}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &773823863
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1344314377593938, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_Name
+      value: DustStorm
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 746
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 919
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701337305738002, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aab62a4dbb056cc40a0396706b1aa75b, type: 3}
 --- !u!850595691 &1628554584
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -531,6 +588,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ddf01e488e863b349a3eb8ce5c1ffaf9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ddf01e488e863b349a3eb8ce5c1ffaf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.343
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ddf01e488e863b349a3eb8ce5c1ffaf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11.343
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ddf01e488e863b349a3eb8ce5c1ffaf9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.343
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ddf01e488e863b349a3eb8ce5c1ffaf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 916
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ddf01e488e863b349a3eb8ce5c1ffaf9, type: 3}
       propertyPath: m_Name
